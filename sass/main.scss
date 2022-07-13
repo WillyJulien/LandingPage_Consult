@@ -1,0 +1,15 @@
+@import './utils/variables_overrides';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import './utils/variables';
+@import './base/base';
+@import './base/typography';
+@import './pages/News';
+@import './components/btn';
+@import './components/header';
+@import './components/cards';
+@import './components/others';
+@import './components/sign_up';
+@import './components/question';
+@import './components/newsletter';
+@import './components/compagnies';
+@import './components/footer';

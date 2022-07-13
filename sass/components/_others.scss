@@ -1,0 +1,10 @@
+.others {
+   
+    &_cards {
+        border : #C8D0DA  1px solid;
+        border-radius: 20px;
+    }
+    &_cards:hover {
+        border-color: $color-2
+    }
+}

@@ -1,0 +1,24 @@
+.div_question {
+
+border : 1px solid grey ;
+border-radius : 20px;
+padding : 15px;
+position: relative;
+cursor: pointer;
+}
+
+.bi-caret-down-fill::before {
+    position: absolute;
+    right: 20px;
+    top : 20px
+}
+
+.div_question:hover {
+    background-color: $color-2;
+    color: white;
+}
+
+.div_question:focus {
+    background-color: $color-2;
+    color: white;
+}

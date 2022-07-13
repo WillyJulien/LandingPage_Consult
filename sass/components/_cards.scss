@@ -1,0 +1,21 @@
+
+    .card {
+        border: 1px #C8D0DA solid;
+        transition: 400ms;
+    }
+    .card:hover {
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 20px;
+        box-shadow: $shadow;
+      
+    }
+
+    @media screen and (max-width: 992px) {
+        .card-middle {
+            bottom: 0px;
+            box-shadow: none;
+            border: 1px #C8D0DA solid;
+        }
+    }
+    

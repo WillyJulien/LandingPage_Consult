@@ -1,0 +1,18 @@
+
+$enable-rounded: false;
+$blue:    #387EF9;
+$secondary:    #102E49 ;
+
+$navbar-light-color : #1D272E;
+$navbar-light-hover-color :  #387EF9;
+$navbar-light-active-color :  #387EF9;
+
+[class*="bi-briefcase"]::before, [class*="bi-graph-up-arrow"]::before,[class*="bi-chat-dots"]::before {
+    font-size: 30px;
+    background-color: #387EF9;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+  }
+
